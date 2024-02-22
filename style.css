@@ -755,3 +755,98 @@ margin-left:auto;
   top: 30px;
 }
 
+.div-right{
+/*     background-image: url(../images/popularity.jpg);*/
+background-repeat: no-repeat;
+min-height: 645px;
+min-width: 40%;
+
+
+}
+
+
+
+
+
+
+/* History
+===============================*/
+
+.history{
+  padding-top: 270px;
+  margin-bottom: 50px;
+ 
+}
+
+.history__wrapper{
+    background-image: url(../images/paracels.jpg);
+background-repeat: no-repeat;
+background-position: right center;
+min-height: 920px;
+}
+
+.history__title{
+  padding: 80px 0 40px;
+  font-size: 40px;
+  line-height: 50px;
+   font-weight: 700;
+   max-width: 570px;
+}
+
+
+.history__text{
+  background-color: #f6f9f3;
+  padding: 42px 30px 65px 0;
+   max-width: 700px;
+   position: relative;
+}
+
+.history__text::before{
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: #f6f9f3;
+  right: 100%;
+  top: 0;
+}
+
+.history__text p{
+  margin: 15px 0;
+}
+
+.history__form{
+  max-width: 400px;
+  padding-left: 30px;
+  margin-left: 200px;
+}
+
+.history__form-title{
+  margin: 40px 0 25px;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 700;
+  padding-right: 30px;
+  text-transform: uppercase;
+}
+
+.history__form input{
+  border: none;
+  outline: none;
+  height: 34px;
+  border-bottom: 1px solid #cddcbc;
+  display: block;
+  width: 100%;
+  font-size: 14px;
+}
+.history__form input::placeholder{
+  color: #a8c48c;
+}
+
+.history__form button{
+  width: 100%;
+  margin-top: 30px;
+
+}
+
+
