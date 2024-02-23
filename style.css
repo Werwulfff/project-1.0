@@ -598,7 +598,7 @@ position: relative;
   height: 13px;
   background-image: url(../images/chevron.svg);
   top: 50%;
-  transform: translateY(-50%); /* т.е вверх в половину себя */
+  transform: translateY(-50%);
 }
 
 
@@ -756,7 +756,6 @@ margin-left:auto;
 }
 
 .div-right{
-/*     background-image: url(../images/popularity.jpg);*/
 background-repeat: no-repeat;
 min-height: 645px;
 min-width: 40%;
@@ -955,7 +954,5 @@ color: #9a9a9a;
   color: #f7f9f3;
   top: 50%;
   left: 50%;
-/*  transform: translate(-50%, -50%);   центровка элемента */
-   transform: translate(-50%, -70%);  /* центровка элемента 
-   с учетом имеющегося контента*/
+  transform: translate(-50%, -70%); 
 }
