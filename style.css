@@ -956,3 +956,170 @@ color: #9a9a9a;
   left: 50%;
   transform: translate(-50%, -70%); 
 }
+
+.item__content{
+position: relative;
+text-align: center;
+}
+
+.item__content-title{
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 30px;
+ text-transform: uppercase;
+}
+
+.item__content-img{
+  margin-bottom: 30px;
+}
+
+.composition{
+  padding: 180px 0px 100px;
+}
+
+.composition__item{
+ margin-bottom: 30px;
+  background-color: #f6f9f3;
+
+
+}
+
+.composition__item-inner{
+  min-height: 270px;
+  min-width: 270px;
+  background-image:  url(../images/comp-2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: auto;
+  background-size: auto;
+  position: relative;
+
+}
+
+.composition__item-num,
+.composition__item-name{
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 3px;
+  color: #a4c58c;
+  font-weight: 700;
+  position: absolute;
+  transform: rotate(-90deg);  
+}
+
+.composition__item-num{
+  top: 27px;
+  left: /*-3px;*/ -11px;
+  text-transform: uppercase;
+
+}
+
+.composition__item-name{
+  font-weight: 400;
+
+  bottom: 13px;
+  right: /*3px;*/ 23px;
+  width: 0;
+  height: 0;
+  white-space: nowrap;
+  
+
+}
+
+.composition__item-effect{
+  opacity: 0;
+
+  position: absolute;
+  background-color: red;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+ background-image: url(../images/compbg.png);
+ background-repeat: no-repeat;
+ background-position: center;
+ -webkit-background-size: cover;
+ background-size: cover;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  -ms-align-items: center;
+  align-items: center;
+  justify-content: center;
+  transition: opacity .3s;
+
+}
+
+
+.comp-1 {
+    background-image: url(../images/comp-1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.comp-2 {
+    background-image: url(../images/comp-2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.comp-3 {
+    background-image: url(../images/comp-3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.comp-4 {
+    background-image: url(../images/comp-4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.comp-5 {
+    background-image: url(../images/comp-5.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.comp-6 {
+    background-image: url(../images/comp-6.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.comp-7 {
+    background-image: url(../images/comp-7.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.comp-8 {
+    background-image: url(../images/comp-8.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.comp-9 {
+    background-image: url(../images/comp-9.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.comp-10 {
+    background-image: url(../images/comp-10.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
