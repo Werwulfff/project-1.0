@@ -1236,3 +1236,161 @@ height: 100%;
 }
 
 
+.reviews{
+
+}
+
+
+
+
+.reviews__title{
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  color: #303030;
+  margin-bottom: 40px;
+}
+
+
+.reviews__tab{
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+  color: #c3c3c3;
+  display: inline-block;
+  cursor: pointer;
+  padding: 25px 40px 25px 70px;
+}
+
+.reviews__tab.active{
+  color: #7eb152;
+  background-color: #f6f9f3;
+  position: relative;
+}
+
+.reviews__tab:first-child.active:before{
+position: absolute;
+content: '';
+height: 100%;
+width:100%;
+top: 0;
+right: 100%;
+background-color: #f6f9f3;
+}
+
+.reviews__tab:last-child.active:after{
+position: absolute;
+content: '';
+height: 100%;
+width:150%;
+top: 0;
+left: 100%;
+background-color: #f6f9f3;
+}
+
+
+.reviews__tab + .reviews__tab{ /*для соседнего т.е второго элемента */
+  padding-left: 65px;
+}
+
+.reviews__content{
+  background-color: #f6f9f3;
+}
+
+.reviews__content-item{
+  display: none;
+  
+}
+
+.reviews__textbox{
+  padding-top: 50px;
+  padding-bottom: 20px;
+
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  -o-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+
+.reviews-text{
+  padding: 20px 0px 50px;
+  color: #9a9a9a;
+  max-width: 570px;
+  width: 100%;
+  position: relative;
+}
+
+.reviews-text:nth-child(odd){
+  padding-left: 70px;
+}
+
+.reviews-text:nth-child(odd):before{
+  left: 70px;
+}
+
+.reviews-text:nth-child(even){
+  padding-right: 70px;
+
+}
+
+
+
+.reviews-text::before{
+  content: ''; 
+  width: 35px;
+  height: 3px;
+  background-color: #a4c58c; 
+  top:0;
+  left: 0;
+  position: absolute;
+}
+
+
+.reviews-text span{
+  color: #302020;
+  font-weight: 700;
+  display: block;
+  padding-top: 20px;
+}
+
+
+.reviews__content-item:first-child{
+  display: block;
+}
+
+.reviews__link{
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: flex-end;
+  -ms-align-items: center;
+  align-items: center;
+  padding-top: 20px;
+  margin-bottom: 200px;
+}
+
+.reviews__link-tab{
+  margin-right: 70px;
+  color: #7eb152;
+  line-height: 14px;
+  text-decoration: none;
+  font-weight: 700;
+  border-bottom: 1px solid #7eb152;  
+}
+
+
+.reviews__link-popup{
+  position: relative;
+}
+
+
